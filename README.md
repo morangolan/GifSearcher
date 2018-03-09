@@ -10,7 +10,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 
 ```
 > git clone https://github.com/morangolan/GifSearcher.git
-> cd gif-searcher
+> cd GifSearcher
 > npm install
 > npm install redux-promise
 > npm install axios
