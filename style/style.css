@@ -1,0 +1,152 @@
+/** HEADER STYLE **/
+
+header {
+    background-color: rgba(0, 255, 153, 0.3);;
+    height: 70px; 
+    font-weight: 800;
+	font-family: 'Audiowide', cursive;
+	display: block;
+}
+
+.logo{
+	float: left;
+}
+
+.gif{
+	font-size: 45px;
+	padding: 10px 0 10px 10px;	
+}
+
+.gif #g{
+	color: #f92a61;
+}
+
+.gif #i{
+	color: #0caece;
+}
+
+.gif #f{
+	color: #f99c39;
+}
+
+.logo #searcher{
+	font-size: 22px;
+	color: #320ba8;
+	font-weight: 400;
+	padding: 0px;
+	text-transform: uppercase;
+}
+
+.copyrights{
+	padding: 15px;
+	font-size: 12px;
+	float: right;
+}
+
+
+/** MAIN BODY STYLE **/
+
+.container{
+    width: 100%;  
+    margin-bottom: 100px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+/** SEARCH BAR STYLE **/
+.input-group {
+    margin: 25px 0px;
+    text-align: center;
+	width: 80%;
+}
+
+.input-group input {
+    font-weight: 700;
+}
+.input-group button {
+    font-weight: 700;
+}
+
+.input-group-btn button:hover{
+	background-color: rgba(0, 175, 211, 0.3);
+}
+
+/** RIGHT BAR - SEARCH TERM HISTORY- STYLE **/
+.search-history{
+    width: 12%;
+    float: right;
+}
+
+.history-list{
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.history-title{
+	text-transform: uppercase;
+    font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 5px;
+	border-bottom: 2px solid rgb(0, 255, 153);
+}
+
+.term-item{
+	list-style: none;
+	width: 100%;
+	cursor: pointer;
+    float: left;
+	font-size: 16px;
+	padding: 10px 5px;
+}
+
+.term-item:hover{
+	background-color: rgba(0, 255, 153, 0.3);
+}
+
+/** MAIN LEFT BAR - GIF RESULTS LIST - STYLE **/
+.result-col{
+	width: 88%;
+}
+
+.list-unstyled{ 
+    float: left;
+}
+
+.gif-list-title{
+	display:block !important;
+    font-size: 20px;
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-weight: 700;  
+    width: 79%;
+	float: left;
+    text-align: left;
+	border-bottom: 2px solid rgb(0, 255, 153);
+	
+}
+
+.media img{
+    text-align: center;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.title {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    height: 40px;
+    font-weight: 500;
+    color: #333;
+}
+
+.list-group-item {
+    cursor: pointer;
+    width: 30%;
+    float: left;
+}
+
+.list-group-item:hover{
+    background-color: rgba(0, 255, 153, 0.3);
+}
