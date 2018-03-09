@@ -9,7 +9,7 @@ The app uses React and Redux js frameworks.
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-> git clone https://github.com/morangolan/gif-searcher.git
+> git clone https://github.com/morangolan/GifSearcher.git
 > cd gif-searcher
 > npm install
 > npm install redux-promise
