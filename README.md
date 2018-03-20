@@ -1,7 +1,7 @@
 # GIF SEARCHER APP
 
-This app allowes users to search for their favorite gif by search term.
-The app uses React and Redux js frameworks.
+Find your favorite GIF from Giphy API.
+The app is built on React and Redux JS frameworks.
 
 ### Getting Started via Git:
 
